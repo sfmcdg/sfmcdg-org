@@ -11,7 +11,7 @@ The worker script displays a page containing:
 
 ## Config
 
-### Wrangler.toml
+### wrangler.toml
 
 ```
 name = "sfmcdg-org"
