@@ -27,8 +27,29 @@ async function handleRequest(event) {
       console.error(err)
     }
 
+    const requestURL = new URL(event.request.url)
+    const path = requestURL.pathname
+    let filterLocation=''
+    let active=['inactive','inactive','inactive','inactive']
+    if (path === '/asia-pacific') {
+      filterLocation = 'Asia Pacific'
+      active[0]='active'
+    }
+    if (path === '/europe-middleeast-africa') {
+      filterLocation = 'Europe, Middle East, Africa'
+      active[1]='active'
+    }
+    if (path === '/north-america') {
+      filterLocation = 'North America'
+      active[2]='active'
+    }
+    if (path === '/south-america') {
+      filterLocation = 'South America'
+      active[3]='active'
+    }
 
-    let content = await Promise.all(groups.map(async (group) => {
+    const locations = groups.filter(({ location }) => location === filterLocation )
+    let content = await Promise.all(locations.map(async (group) => {
       let scraper, result, join, heading, upcoming, about
       try {
         scraper = await new Scraper().fetch(group.url)
@@ -59,7 +80,7 @@ async function handleRequest(event) {
         `
       }))
 
-      response = new Response( html.replace('{{README}}',readme.replace(/`/g,'\\`')).replace('{{GROUPS}}',content.join('')),
+      response = new Response( html.replace('{{README}}',readme.replace(/`/g,'\\`').replace(/## /g,'##### ')).replace('{{ACTIVE0}}',active[0]).replace('{{ACTIVE1}}',active[1]).replace('{{ACTIVE2}}',active[2]).replace('{{ACTIVE3}}',active[3]).replace('{{GROUPS}}',content.join('')),
       {
         headers: {
           'content-type': contentTypes.html,

@@ -29,6 +29,8 @@ export default `
         }
       }
 
+      .inactive {text-decoration: underline;}
+
     </style>
 
 
@@ -182,29 +184,30 @@ AAAAHXRFWHRpY2M6ZGVzY3JpcHRpb24Ac1JHQiBidWlsdC1pbuOFycUAAAAASUVORK5CYII=" />
         <span class="fs-4 ms-3">Salesforce Marketing Cloud Developers Group</span>
       </a>
 
-      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#groups-and-events">Groups &amp; Events</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#links">Links</a>
-      </nav>
     </div>
   </header>
 
   <main>
 
-    <section class="p-1 m-1">
+    <section class="p-4 m-2">
       <div class="p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal"><a id="groups-and-events">Groups &amp; Events</a></h1>
-        <p class="fs-5 text-muted">Getting involved and reaching out to people in a Trailblazer Community Groups can be a great way of helping to learn marketing cloud.</p>
+        <p class="fs-5">Select a location for list of groups &amp; events near you - <span class="text-muted"> getting involved and reaching out to people in a Trailblazer Community Groups can be a great way of helping to learn Salesforce Marketing Cloud.</span></p>
       </div>
-      <div class="list-group list-group-flush">
+      <nav class="nav nav-pills nav-justified">
+        <a class="nav-link {{ACTIVE0}}" aria-current="page" href="/asia-pacific"><span class="align-middle">Asia Pacific</span></a>
+        <a class="nav-link {{ACTIVE1}}" aria-current="page" href="/europe-middleeast-africa"><span class="align-middle">Europe, Middle East, Africa</span></a>
+        <a class="nav-link {{ACTIVE2}}" aria-current="page" href="/north-america"><span class="align-middle">North America</span></a>
+        <a class="nav-link {{ACTIVE3}}" aria-current="page" href="/south-america"><span class="align-middle">South America</span></a>
+      </nav>
+      <div class="list-group list-group-flush pt-4">
         {{GROUPS}}
       </div>
     </section>
 
-    <section class="p-1 m-1">
+
+    <section class="p-4 m-2 border-top readme">
       <div class="p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal"><a id="links">Links</a></h1>
-        <p class="fs-5 text-muted">A collection of helpful resources for working with Salesforce Marketing Cloud.</p>
+        <p class="fs-5">Awesome Salesforce Marketing Cloud links - <span class="text-muted"> a collection of helpful resources for working with Salesforce Marketing Cloud.</span></p>
       </div>
       <div class="list-group list-group-flush">
         <div id="readme" />
@@ -213,7 +216,7 @@ AAAAHXRFWHRpY2M6ZGVzY3JpcHRpb24Ac1JHQiBidWlsdC1pbuOFycUAAAAASUVORK5CYII=" />
 
   </main>
 
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+  <footer class="pt-4 my-md-5 border-top">
     <div class="row">
       <div class="col-12 col-md">
         <small class="d-block mb-3 text-muted">SFMCDG &copy; 2014–2022</small>
