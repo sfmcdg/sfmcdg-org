@@ -127,6 +127,12 @@ const groups = [
   },
   {
     location: 'North America',
+    country: 'Mexico',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Torreon, Mexico',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-torreon-mexico/'
+  },
+  {
+    location: 'North America',
     country: 'United States',
     name: 'Salesforce Marketer Group (Marketing Cloud), Austin, United States',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-austin-united-states/'
