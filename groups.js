@@ -2,25 +2,25 @@ const groups = [
   {
     location: 'Asia Pacific',
     country: 'Australia',
-    name: 'Brisbane, AU B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/brisbane-au-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Brisbane, Australia',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-brisbane-australia/'
   },
   {
     location: 'Asia Pacific',
     country: 'Australia',
-    name: 'Melbourne Marketing Cloud Developers Group',
-    url: 'https://trailblazercommunitygroups.com/marketing-cloud-developers-group/'
+    name: 'Salesforce Marketing Cloud Developers Group (Virtual)',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketing-cloud-developers-group-virtual/'
   },
   {
     location: 'Asia Pacific',
     country: 'Australia',
-    name: 'Sydney B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/sydney-au-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Sydney, Australia',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-sydney-australia/'
   },
   {
     location: 'Asia Pacific',
     country: 'India',
-    name: 'Bengaluru, IN B2C Marketers Group',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Bengaluru, India',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-bengaluru-india/'
   },
   {
@@ -32,8 +32,8 @@ const groups = [
   {
     location: 'Asia Pacific',
     country: 'India',
-    name: 'Hyderabad, IN B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/hyderabad-in-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Hyderabad, India',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-hyderabad-india/'
   },
   {
     location: 'Asia Pacific',
@@ -44,38 +44,38 @@ const groups = [
   {
     location: 'Asia Pacific',
     country: 'Malaysia',
-    name: 'Cyberjaya, Malaysia Salesforce Marketer Group (Marketing Cloud)',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Cyberjaya, Malaysia',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-cyberjaya-malaysia/'
   },
   {
     location: 'Europe, Middle East, Africa',
     country: 'Belgium',
-    name: 'Brussels, BE B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/brussels-be-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Brussels, Belgium',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-brussels-belgium/'
   },
   {
     location: 'Europe, Middle East, Africa',
     country: 'France',
-    name: 'Paris, France B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/paris-france-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Paris, France',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-paris-france/'
   },
   {
     location: 'Europe, Middle East, Africa',
     country: 'Germany',
-    name: 'Berlin, DE B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/berlin-de-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Berlin, Germany',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-berlin-germany/'
   },
   {
     location: 'Europe, Middle East, Africa',
     country: 'Germany',
-    name: 'Munich, DE B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/munich-de-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Munich, Germany',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-munich-germany/'
   },
   {
     location: 'Europe, Middle East, Africa',
     country: 'Netherlands',
-    name: 'Rotterdam, Netherlands B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/rotterdam-netherlands-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Rotterdam, Netherlands',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-rotterdam-netherlands/'
   },
   {
     location: 'Europe, Middle East, Africa',
@@ -98,20 +98,20 @@ const groups = [
   {
     location: 'Europe, Middle East, Africa',
     country: 'Switzerland',
-    name: 'Zurich, CH B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/zurich-ch-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Zurich, Switzerland',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-zurich-switzerland/'
   },
   {
     location: 'Europe, Middle East, Africa',
     country: 'United Kingdom',
-    name: 'London, UK B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/london-uk-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), London, United Kingdom',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-london-united-kingdom/'
   },
   {
     location: 'North America',
     country: 'Canada',
-    name: 'Toronto, CA B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/toronto-ca-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Toronto, Canada',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-toronto-canada/'
   },
   {
     location: 'North America',
@@ -122,8 +122,8 @@ const groups = [
   {
     location: 'North America',
     country: 'United States',
-    name: 'Cleveland, OH B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/cleveland-oh-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Cleveland, United States',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-cleveland-united-states/'
   },
   {
     location: 'North America',
@@ -140,20 +140,20 @@ const groups = [
   {
     location: 'North America',
     country: 'United States',
-    name: 'Indianapolis, IN B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/indianapolis-in-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Indianapolis, United States',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-indianapolis-united-states/'
   },
   {
     location: 'North America',
     country: 'United States',
-    name: 'Kansas City, MO B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/kansas-city-marketing-cloud-user-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), Kansas City, United States',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-kansas-city-united-states/'
   },
   {
     location: 'North America',
     country: 'United States',
-    name: 'San Francisco, CA B2C Marketers Group',
-    url: 'https://trailblazercommunitygroups.com/san-francisco-ca-b2c-marketers-group/'
+    name: 'Salesforce Marketer Group (Marketing Cloud), San Francisco, United States',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-san-francisco-united-states/'
   }
 ]
 
