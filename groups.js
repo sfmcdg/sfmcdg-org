@@ -67,6 +67,12 @@ const groups = [
   },
   {
     location: 'Europe, Middle East, Africa',
+    country: 'Croatia',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Zagreb, Croatia',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-zagreb-croatia/'
+  },
+  {
+    location: 'Europe, Middle East, Africa',
     country: 'France',
     name: 'Salesforce Marketer Group (Marketing Cloud), Paris, France',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-paris-france/'
