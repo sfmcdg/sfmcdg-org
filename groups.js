@@ -97,6 +97,12 @@ const groups = [
   },
   {
     location: 'Europe, Middle East, Africa',
+    country: 'Poland',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Warsaw, Poland',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-warsaw-poland/'
+  },
+  {
+    location: 'Europe, Middle East, Africa',
     country: 'Portugal',
     name: 'Salesforce Marketer Group (Marketing Cloud), Lisbon, Portugal',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-lisbon-portugal/'
