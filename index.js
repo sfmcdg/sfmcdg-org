@@ -52,10 +52,15 @@ async function handleRequest(event) {
       } catch (err) {
         console.error(err)
       }
-      result = await scraper.querySelector('#about div,#upcoming-events ul li:first-child *').getText({spaced:true})
-      if (result['#upcoming-events ul li:first-child *'][0] != undefined) {
+      result = await scraper.querySelector('#about div,#upcoming-events ul li:nth-child(1) *,#upcoming-events ul li:nth-child(2) *,#upcoming-events ul li:nth-child(3) *,#upcoming-events ul li:nth-child(4) *,#upcoming-events ul li:nth-child(5) *,#upcoming-events ul li:nth-child(6) *,#upcoming-events ul li:nth-child(7) *,#upcoming-events ul li:nth-child(8) *,#upcoming-events ul li:nth-child(9) *,#upcoming-events ul li:nth-child(10) *').getText({spaced:true})
+      if (result['#upcoming-events ul li:nth-child(1) *'][0] != undefined) {
         join=`<p class="m-2 mt-3"><button type="button" class="btn btn-primary btn-sm">LEARN MORE &amp; RSVP DETAILS</button></p>`
-        upcoming=`<div class="card border-primary m-2"><div class="card-header"><small class="text-muted">Next ${result['#upcoming-events ul li:first-child *'][1].toLowerCase()} on ${result['#upcoming-events ul li:first-child *'][0].slice(0, -1)}</small></div><div class="card-body"><h5 class="card-title"><strong>${result['#upcoming-events ul li:first-child *'][2]}</strong></h5><p class="card-text">${result['#upcoming-events ul li:first-child *'][3]}</div></div>`
+        upcoming=`<div class="card border-primary m-2"><div class="card-header"><small class="text-muted">Next ${result['#upcoming-events ul li:nth-child(1) *'][1].toLowerCase()} on ${result['#upcoming-events ul li:nth-child(1) *'][0].slice(0, -1)}</small></div><div class="card-body"><h5 class="card-title"><strong>${result['#upcoming-events ul li:nth-child(1) *'][2]}</strong></h5><p class="card-text">${result['#upcoming-events ul li:nth-child(1) *'][3]}</div></div>`
+        for (let i = 2; i < 11; i++) {
+          if (result[`#upcoming-events ul li:nth-child(${i}) *`][0] != undefined) {
+            upcoming=upcoming+`<div class="card border-primary m-2"><div class="card-header"><small class="text-muted">Next ${result[`#upcoming-events ul li:nth-child(${i}) *`][1].toLowerCase()} on ${result[`#upcoming-events ul li:nth-child(${i}) *`][0].slice(0, -1)}</small></div><div class="card-body"><h5 class="card-title"><strong>${result[`#upcoming-events ul li:nth-child(${i}) *`][2]}</strong></h5><p class="card-text">${result[`#upcoming-events ul li:nth-child(${i}) *`][3]}</div></div>`
+          }
+        }
       }
       else {
         join=`<p class="m-2 mt-3"><button type="button" class="btn btn-primary btn-sm">LEARN MORE</button></p>`
