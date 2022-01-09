@@ -55,6 +55,12 @@ const groups = [
   },
   {
     location: 'Asia Pacific',
+    country: 'India',
+    name: 'Salesforce Marketer Group (Marketing Cloud), sikar, india',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-sikar-india/'
+  },
+  {
+    location: 'Asia Pacific',
     country: 'Malaysia',
     name: 'Salesforce Marketer Group (Marketing Cloud), Cyberjaya, Malaysia',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-cyberjaya-malaysia/'
