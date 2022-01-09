@@ -103,6 +103,12 @@ const groups = [
   },
   {
     location: 'Europe, Middle East, Africa',
+    country: 'Norway',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Oslo, Norway',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-oslo-norway/'
+  },
+  {
+    location: 'Europe, Middle East, Africa',
     country: 'Poland',
     name: 'Salesforce Marketer Group (Marketing Cloud), Warsaw, Poland',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-warsaw-poland/'
