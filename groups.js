@@ -97,6 +97,12 @@ const groups = [
   },
   {
     location: 'Europe, Middle East, Africa',
+    country: 'Italy',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Milano, Italy',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-milano-italy/'
+  },
+  {
+    location: 'Europe, Middle East, Africa',
     country: 'Netherlands',
     name: 'Salesforce Marketer Group (Marketing Cloud), Rotterdam, Netherlands',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-rotterdam-netherlands/'
