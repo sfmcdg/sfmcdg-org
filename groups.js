@@ -158,6 +158,12 @@ const groups = [
   {
     location: 'North America',
     country: 'United States',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Bridgewater, United States',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-bridgewater-united-states/'
+  },
+  {
+    location: 'North America',
+    country: 'United States',
     name: 'Salesforce Marketer Group (Marketing Cloud), Cleveland, United States',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-cleveland-united-states/'
   },
