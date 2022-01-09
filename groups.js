@@ -103,6 +103,12 @@ const groups = [
   },
   {
     location: 'Europe, Middle East, Africa',
+    country: 'Ireland',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Dublin, Ireland',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-dublin-ireland/'
+  },
+  {
+    location: 'Europe, Middle East, Africa',
     country: 'Italy',
     name: 'Salesforce Marketer Group (Marketing Cloud), Milano, Italy',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-milano-italy/'
