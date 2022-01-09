@@ -139,6 +139,12 @@ const groups = [
   },
   {
     location: 'Europe, Middle East, Africa',
+    country: 'Sweden',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Stockholm, Sweden',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-stockholm-sweden/'
+  },
+  {
+    location: 'Europe, Middle East, Africa',
     country: 'Switzerland',
     name: 'Salesforce Marketer Group (Marketing Cloud), Zurich, Switzerland',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-zurich-switzerland/'
