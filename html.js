@@ -197,7 +197,6 @@ AAAAHXRFWHRpY2M6ZGVzY3JpcHRpb24Ac1JHQiBidWlsdC1pbuOFycUAAAAASUVORK5CYII=" />
         <a class="nav-link {{ACTIVE0}}" aria-current="page" href="/asia-pacific"><span class="align-middle">Asia Pacific</span></a>
         <a class="nav-link {{ACTIVE1}}" aria-current="page" href="/europe-middleeast-africa"><span class="align-middle">Europe, Middle East, Africa</span></a>
         <a class="nav-link {{ACTIVE2}}" aria-current="page" href="/north-america"><span class="align-middle">North America</span></a>
-        <a class="nav-link {{ACTIVE3}}" aria-current="page" href="/south-america"><span class="align-middle">South America</span></a>
       </nav>
       <div class="list-group list-group-flush pt-4">
         {{GROUPS}}

@@ -30,7 +30,7 @@ async function handleRequest(event) {
     const requestURL = new URL(event.request.url)
     const path = requestURL.pathname
     let filterLocation=''
-    let active=['inactive','inactive','inactive','inactive']
+    let active=['inactive','inactive','inactive']
     if (path === '/asia-pacific') {
       filterLocation = 'Asia Pacific'
       active[0]='active'
@@ -42,10 +42,6 @@ async function handleRequest(event) {
     if (path === '/north-america') {
       filterLocation = 'North America'
       active[2]='active'
-    }
-    if (path === '/south-america') {
-      filterLocation = 'South America'
-      active[3]='active'
     }
 
     const locations = groups.filter(({ location }) => location === filterLocation )
@@ -80,7 +76,7 @@ async function handleRequest(event) {
         `
       }))
 
-      response = new Response( html.replace('{{README}}',readme.replace(/`/g,'\\`').replace(/## /g,'##### ')).replace('{{ACTIVE0}}',active[0]).replace('{{ACTIVE1}}',active[1]).replace('{{ACTIVE2}}',active[2]).replace('{{ACTIVE3}}',active[3]).replace('{{GROUPS}}',content.join('')),
+      response = new Response( html.replace('{{README}}',readme.replace(/`/g,'\\`').replace(/## /g,'##### ')).replace('{{ACTIVE0}}',active[0]).replace('{{ACTIVE1}}',active[1]).replace('{{ACTIVE2}}',active[2]).replace('{{GROUPS}}',content.join('')),
       {
         headers: {
           'content-type': contentTypes.html,
