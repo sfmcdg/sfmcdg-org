@@ -32,6 +32,12 @@ const groups = [
   {
     location: 'Asia Pacific',
     country: 'India',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Chennai, India',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-chennai-india/'
+  },
+  {
+    location: 'Asia Pacific',
+    country: 'India',
     name: 'Salesforce Marketer Group (Marketing Cloud), Hyderabad, India',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-hyderabad-india/'
   },
