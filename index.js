@@ -76,6 +76,7 @@ async function handleRequest(event) {
         <a href="${group.url}" class="list-group-item list-group-item-action flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="m-2">${group.name}</h5>
+            <p><span class="badge bg-secondary">${group.country}</span></p>
           </div>${about}${upcoming}${join}
         </a>
         `
