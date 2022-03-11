@@ -242,6 +242,12 @@ const groups = [
   {
     location: 'North America',
     country: 'United States',
+    name: 'Salesforce Marketer Group (Marketing Cloud), Phoenix, United States',
+    url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-phoenix-united-states/'
+  },
+  {
+    location: 'North America',
+    country: 'United States',
     name: 'Salesforce Marketer Group (Marketing Cloud), San Francisco, United States',
     url: 'https://trailblazercommunitygroups.com/salesforce-marketer-group-marketing-cloud-san-francisco-united-states/'
   },
