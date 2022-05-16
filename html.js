@@ -31,6 +31,8 @@ export default `
 
       .inactive {text-decoration: underline;}
 
+      .commento-logo-container {display:none;}
+
     </style>
 
 
@@ -213,6 +215,12 @@ AAAAHXRFWHRpY2M6ZGVzY3JpcHRpb24Ac1JHQiBidWlsdC1pbuOFycUAAAAASUVORK5CYII=" />
       </div>
     </section>
 
+    <div style="width:90%;margin-left:auto;margin-right:auto;">
+      <script defer src="https://comments.consideration.cloud/js/commento.js"
+      data-page-id="/"></script>
+      <div id="commento"></div>
+    </div>
+
   </main>
 
   <footer class="pt-4 my-md-5 border-top">
@@ -236,10 +244,6 @@ AAAAHXRFWHRpY2M6ZGVzY3JpcHRpb24Ac1JHQiBidWlsdC1pbuOFycUAAAAASUVORK5CYII=" />
       $('#readme').html(md.render(markdown));
     });
   </script>
-
-  <script defer src="https://comments.consideration.cloud/js/commento.js"
-  data-page-id="/"></script>
-  <div id="commento"></div>  
 
   </body>
 </html>`
