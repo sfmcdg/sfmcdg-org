@@ -237,5 +237,9 @@ AAAAHXRFWHRpY2M6ZGVzY3JpcHRpb24Ac1JHQiBidWlsdC1pbuOFycUAAAAASUVORK5CYII=" />
     });
   </script>
 
+  <script defer src="https://comments.consideration.cloud/js/commento.js"
+  data-page-id="/"></script>
+  <div id="commento"></div>  
+
   </body>
 </html>`
